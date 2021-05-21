@@ -1,0 +1,61 @@
+/* VARS  */
+
+:root {
+
+    --header-height:3rem;
+    --first-color: blue;
+    --first-color-alt: green ;
+    --title-color: #000000;
+    --text-color-light: grey ;
+    --body-color: lightgrey ;
+    --container-color: red;
+
+    /* FONT AND TYPOGRAPHY */
+
+    --body-font: 'poppins', monospace;
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size:1.25rem ;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smallest-font-size: .75rem;
+
+    /* SIZE  */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /* MARGINS */
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+
+    /* Z-INDEX */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+@media screen and ( min-width: 768px ){
+
+    :root {
+
+        --biggest-font-size: 4rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 125rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smallest-font-size: .813rem;
+    }
+}
+
+
+
+
+.title{
+
+    color: var(--first-color);
+}
